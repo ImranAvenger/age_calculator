@@ -120,6 +120,17 @@ body .wrapper .age_display p span {
     color: hsl(259, 100%, 65%);
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin: auto 0;
+    border: 1px dotted hsl(228, 45%, 44%);
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
 /* Media queries for smaller screens */
 @media only screen and (max-width: 375px) {
     body .wrapper {
